@@ -28,6 +28,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/news" element={<NewsList />} />
         <Route path="/news/:newsID" element={<Details />} />
+
         {/* Add more routes as needed */}
       </Routes>
     </Router>
